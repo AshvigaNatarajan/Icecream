@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varieties</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightpink;
+        }
+        header {
+            background-color:salmon;
+            color:ghostwhite;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 700%;
+            margin: 30px auto;
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+        }
+        .item {
+            border: 4px solid darkgreen;
+            padding: 10px;
+            border-radius: 7px;
+            background-color:seashell;
+            box-shadow: 0 3px 4px black;
+            animation: moveBox 2s ease infinite;
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .item h3 {
+            margin-top: 10px;
+            text-align: center;
+            color:firebrick;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ice Cream Varieties</h1>
+    </header>
+    <div class="container">
+        <div class="item">
+            <img src="https://media.istockphoto.com/id/936205852/photo/chocolate-ice-cream-in-a-glass-cup.webp?b=1&s=170667a&w=0&k=20&c=XjzH1vmxrw7StJgyiXzouxBNuKIdnd_wz9l1j6W8HKU=" alt="Chocolate Ice Cream">
+            <h3>Chocolate</h3>
+        </div>
+        <div class="item">
+            <img src="https://img.delicious.com.au/CEktKC0E/del/2015/10/vanilla-bean-ice-cream-11118-1.jpg" alt="Vanilla Ice Cream">
+            <h3>Vanilla</h3>
+        </div>
+        <div class="item">
+            <img src="https://t4.ftcdn.net/jpg/05/93/07/05/360_F_593070598_gscqHV1vMfrCD3yH44yBPfn7JZmHFTcL.jpg" alt="Strawberry Ice Cream">
+            <h3>Strawberry</h3>
+        </div>
+        <div class="item">
+            <img src="https://www.coolhullfarm.com/wp-content/uploads/2018/12/1010-1203-1704-Mint-Chocolate-Chip-Ice-Cream-scaled.jpg" alt="Mint Chocolate Chip Ice Cream">
+            <h3>Mint Chocolate Chip</h3>
+        </div>
+        <div class="item">
+            <img src="https://media.istockphoto.com/id/688427626/photo/cookies-and-cream-ice-cream.jpg?s=612x612&w=0&k=20&c=Nn9351tXWwOlPdWzlPGMX25eYCi6od3-gTU8mpTP_QA=" alt="Cookies and Cream Ice Cream">
+            <h3>Cookies and Cream</h3>
+        </div>
+        <div class="item">
+            <img src="https://leitesculinaria.com/wp-content/uploads/2021/09/butter-pecan-ice-cream-fp.jpg" alt="Butter Pecan Ice Cream">
+            <h3>Butter Pecan</h3>
+        </div>
+        <div class="item">
+          <img src="https://m.media-amazon.com/images/I/71fRkM33LcL._AC_UF1000,1000_QL80_.jpg" alt="pista Icecream">
+          <h3>Pista Icecream</h3>
+        </div>
+        <div class="item">
+          <img src="https://southindianfoods.in/recipe_picture_enlarge/butterscotch-ice-cream.jpg" alt="butterscotch-ice-cream">
+          <h3>ButterScotch Icecream</h3>
+        </div>
+    </div>
+</body>
+</html>
